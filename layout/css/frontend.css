@@ -1,0 +1,327 @@
+
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Poetsen One", sans-serif;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    height: calc(100vh + 200px);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+
+    /* Small */
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+
+    /* Medium */
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+
+    /* Large */
+    .container {
+        width: 1170px;
+    }
+}
+.asterisk {
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    font-size: 20px;
+    color: #f00;
+}
+.main_form .asterisk {
+    position: absolute;
+    right: 26px;
+    top: 10px;
+    font-size: 22px;
+    color: #f00;
+}
+.nice_msg {
+    padding: 10px;
+    background-color: #fff !important;
+    background-image: none;
+    border: 1px solid #888;
+    margin: 20px 0;
+    border-left: 5px solid #080;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+h1 {
+    font-size: 50px;
+    margin: 40px 0;
+    font-weight: normal;
+    color: #444;
+}
+.my_avatar {
+    width: 32px;
+    height: 32px;
+}
+.space_virtical {
+    margin: 30px auto 30px;
+}
+/* End Global Rules */
+
+/* Start Bootstrap Edits */
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+.navbar-brand {
+    font-size: 1em;
+    font-weight: 800;
+}
+.nav > li > a,
+.navbar-brand { 
+    padding: 15px 12px;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #3498db;
+    background-image: none;
+    box-shadow: none;
+    font-weight: 550;
+}
+.dropdown-menu {
+    background-color: #3498db;
+    min-width: 190px;
+    padding: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    font-size: 1em;
+    border: none;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+    padding: 10px 15px;
+    transition: padding 0.2s ease-in-out;
+        -webkit-transition: padding 0.2s ease-in-out;
+        -moz-transition: padding 0.2s ease-in-out;
+        -ms-transition: padding 0.2s ease-in-out;
+        -o-transition: padding 0.2s ease-in-out;
+}
+.dropdown-menu > li:hover > a {
+    padding-left: 20px;
+    font-weight: 550;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    color: #fff;
+    background-color: #4b4b4b;
+}
+.form-control {
+    position: relative;
+}
+/* End Bootstrap Edits */
+
+/* Start Header */
+.upper_bar {
+    padding: 10px;
+    background-color: #222222c4;
+    color: #fafafa;
+}
+.upper_bar a {
+    text-decoration: none;
+    color: #fafafa;
+}
+img.my_avatar {
+    width: 32px;
+    height: 32px;
+}
+.upper_bar .my-infoo img {
+    width: 32px;
+    height: 32px;
+}
+.btn-group>.btn:first-child {
+    margin-left: 10px !important;
+}
+/* End Header */
+
+/* Start Login Page */
+/* .login_background {
+    background-color: #ecf0f1;
+} */
+.login_background form.form {
+    max-width: 400px;
+    margin: auto;
+}
+.login_background form.form .input_container {
+    position: relative;
+}
+.login_background form.form input {
+    margin-bottom: 10px;
+}
+.login_background .x.selected {
+    color: #245580;
+}
+.login_background .y.selected {
+    color: #28a745;
+}
+.login_background h1 {
+    color: #c8d6e5;
+}
+.login_background h1 span {
+    cursor: pointer;
+} 
+.login_background .singup {
+    display: none;
+}
+/* End Login Page */
+
+/* Start Categories Page */
+.item_box {
+    position: relative;
+}
+.item_box .price {
+    position: absolute;
+    background-color: #929292;
+    padding: 3px 10px;
+    left: 0;
+    top: 10px;
+    font-weight: normal;
+    color: #FFF;
+}
+.item_box .caption p.pra {
+    height: 50px;
+}
+.approve_status {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #b85a5a;
+    color: #fff;
+    padding: 3px 5px;
+}
+/* End Categories Page */
+
+/* Start Profile Page */
+.info {
+    margin-top: 20px;
+}
+.info ul {
+    margin: 0;
+    padding: 0;
+}
+.info ul li {
+    padding: 10px;
+}
+.info ul li:nth-child(odd) {
+    background-color: #eee;
+}
+.info ul li span {
+    display: inline-block;
+    width: 130px;
+}
+.error_singup {
+    background-color: #e0e0e0;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 8px 15px;
+    border-left: 3px solid #c3122a;
+}
+.succ_singup {
+    background-color: #e0e0e0;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 8px 15px;
+    border-left: 3px solid rgb(20, 202, 39);
+}
+.thumbnail .date {
+    text-align: right;
+    font-size: 13px;
+    color: #aaa;
+    font-weight: 200;
+}
+.my_btnn {
+    margin-top: 10px;
+}
+/* End Profile Page */
+
+/* Start Show Item Page */
+.item-info h2 {
+    padding: 10px;
+    margin: 0;
+}
+.item-info p {
+    padding: 10px;
+}
+.item-info ul li {
+    padding: 10px;
+}
+.item-info ul li:nth-child(odd) {
+    background-color: #e8e8e8;
+}
+.item-info ul li span {
+    display: inline-block;
+    width: 130px;
+}
+.add_comment h3 {
+    margin: 0 0 10px;
+}
+.add_comment textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 400px;
+    max-width: 500px;
+    padding: 10px;
+}
+.comment_box {
+    margin-bottom: 20px;
+}
+.comment_box img {
+    max-width: 120px;
+    display: block;
+    margin: auto auto 10px;
+}
+.comment_box .lead {
+    background-color: #e8e8e8;
+    position: relative;
+    padding: 10px;
+    height: 120px;
+    margin: 8px;
+}
+/* End Show Item Page */
+
+/* Start Our Custom */
+.custom-hr {
+    border-top: 2px solid #c9c9c9;
+}
+/* End Our Custom */
